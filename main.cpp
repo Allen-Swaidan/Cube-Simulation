@@ -22,7 +22,6 @@ int main(void)
 	glfwMakeContextCurrent(window);
 	if (glewInit() != GLEW_OK) { exit(EXIT_FAILURE); }
 	glfwSwapInterval(1);
-	//init(window);
 
 	Screen screen;
 	screen.initalize(window);
