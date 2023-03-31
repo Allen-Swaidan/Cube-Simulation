@@ -29,7 +29,6 @@ int main(void)
 	while (!glfwWindowShouldClose(window))
 	{
 		screen.display(window, glfwGetTime());
-		//display(window, glfwGetTime());
 		glfwSwapBuffers(window);
 		glfwPollEvents();
 	}
