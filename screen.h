@@ -21,7 +21,6 @@ public:
 	void display(GLFWwindow* window, double currentTime);
 
 private:
-	//GLFWwindow* window;
 	GLuint renderingProgram, vao[numVAOs], vbo[numVBOs];;
 	GLuint mvLoc, projLoc, moveLoc;
 
